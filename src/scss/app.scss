@@ -1,0 +1,25 @@
+$family-primary: 'Roboto', sans-serif;
+$navbar-background-color: transparent;
+$primary: rgb(8, 94, 169);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import 'bulma/bulma.sass';
+@import 'flatpickr/dist/flatpickr.min.css';
+
+body {
+  min-height: 100vh;
+}
+
+.has-bottom-buffer {
+  margin-bottom: 25px !important;
+}
+
+th {
+  padding: 0 0 0 1px !important;
+  text-align: center;
+}
+
+td {
+  padding: 0 0 0 1px !important;
+  text-align: center;
+}

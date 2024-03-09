@@ -1,0 +1,78 @@
+[
+  {
+    "date": "2025-01-01",
+    "holiday": "New Year's Day"
+  },
+  {
+    "date": "2025-01-29",
+    "holiday": "Chinese New Year"
+  },
+  {
+    "date": "2025-01-30",
+    "holiday": "Chinese New Year Holiday"
+  },
+  {
+    "date": "2025-02-01",
+    "holiday": "Federal Territory Day"
+  },
+  {
+    "date": "2025-02-11",
+    "holiday": "Thaipusam"
+  },
+  {
+    "date": "2025-03-17",
+    "holiday": "Nuzul Al-Quran"
+  },
+  {
+    "date": "2025-03-31",
+    "holiday": "Hari Raya Aidilfitri"
+  },
+  {
+    "date": "2025-04-01",
+    "holiday": "Hari Raya Aidilfitri Holiday"
+  },
+  {
+    "date": "2025-05-01",
+    "holiday": "Labour Day"
+  },
+  {
+    "date": "2025-05-12",
+    "holiday": "Wesak Day"
+  },
+  {
+    "date": "2025-06-02",
+    "holiday": "Agong's Birthday"
+  },
+  {
+    "date": "2025-06-06",
+    "holiday": "Hari Raya Haji"
+  },
+  {
+    "date": "2025-06-27",
+    "holiday": "Awal Muharram"
+  },
+  {
+    "date": "2025-08-31",
+    "holiday": "Merdeka Day"
+  },
+  {
+    "date": "2025-09-01",
+    "holiday": "Merdeka Day Holiday"
+  },
+  {
+    "date": "2025-09-05",
+    "holiday": "Prophet Muhammad's Birthday"
+  },
+  {
+    "date": "2025-09-16",
+    "holiday": "Malaysia Day"
+  },
+  {
+    "date": "2025-10-20",
+    "holiday": "Deepavali"
+  },
+  {
+    "date": "2025-12-25",
+    "holiday": "Christmas Day"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2023-01-01",
+    "holiday": "New Year's Day"
+  },
+  {
+    "date": "2023-01-02",
+    "holiday": "New Year Holiday"
+  },
+  {
+    "date": "2023-01-22",
+    "holiday": "Chinese New Year"
+  },
+  {
+    "date": "2023-01-23",
+    "holiday": "Chinese New Year Holiday"
+  },
+  {
+    "date": "2023-01-24",
+    "holiday": "Chinese New Year Holiday"
+  },
+  {
+    "date": "2023-02-05",
+    "holiday": "Thaipusam"
+  },
+  {
+    "date": "2023-02-06",
+    "holiday": "Thaipusam Holiday"
+  },
+  {
+    "date": "2023-04-08",
+    "holiday": "Nuzul Al-Quran"
+  },
+  {
+    "date": "2023-04-21",
+    "holiday": "Hari Raya Aidilfitri Holiday"
+  },
+  {
+    "date": "2023-04-22",
+    "holiday": "Hari Raya Aidilfitri"
+  },
+  {
+    "date": "2023-04-23",
+    "holiday": "Hari Raya Aidilfitri Holiday"
+  },
+  {
+    "date": "2023-04-24",
+    "holiday": "Hari Raya Aidilfitri Holiday"
+  },
+  {
+    "date": "2023-05-01",
+    "holiday": "Labour Day"
+  },
+  {
+    "date": "2023-05-04",
+    "holiday": "Wesak Day"
+  },
+  {
+    "date": "2023-06-05",
+    "holiday": "Agong's Birthday"
+  },
+  {
+    "date": "2023-06-29",
+    "holiday": "Hari Raya Haji"
+  },
+  {
+    "date": "2023-07-19",
+    "holiday": "Awal Muharram"
+  },
+  {
+    "date": "2023-08-31",
+    "holiday": "Merdeka Day"
+  },
+  {
+    "date": "2023-09-16",
+    "holiday": "Malaysia Day"
+  },
+  {
+    "date": "2023-09-28",
+    "holiday": "Prophet Muhammad's Birthday"
+  },
+  {
+    "date": "2023-11-12",
+    "holiday": "Deepavali"
+  },
+  {
+    "date": "2023-11-13",
+    "holiday": "Deepavali Holiday"
+  },
+  {
+    "date": "2023-12-11",
+    "holiday": "Sultan of Selangor's Birthday"
+  },
+  {
+    "date": "2023-12-25",
+    "holiday": "Christmas Day"
+  }
+]
