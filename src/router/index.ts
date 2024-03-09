@@ -1,8 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // We still use the hash mode because GitHub Pages hosts the app on a subpath,
+  // and common history mode doesn't work correctly in such cases.
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',

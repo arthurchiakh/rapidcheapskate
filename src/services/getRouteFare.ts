@@ -46,7 +46,7 @@ const GetRouteFareFromRemote = async (
   toStationCode: string
 ): Promise<RouteFare> => {
   try {
-    const filePath = `/routeFares/${fromStationCode}-${toStationCode}.json`;
+    const filePath = `${import.meta.env.VITE_BASE_URL}/routeFares/${fromStationCode}-${toStationCode}.json`;
     const response = await fetch(filePath);
     const data: RouteFare = await response.json();
     return data;

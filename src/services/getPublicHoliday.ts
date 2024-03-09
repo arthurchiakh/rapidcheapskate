@@ -62,7 +62,7 @@ const getPublicHolidaysByYearFromRemote = async (
   year: string
 ): Promise<Array<PublicHoliday>> => {
   try {
-    const filePath = `/publicHolidays/${region.toString()}-${year}.json`;
+    const filePath = `${import.meta.env.VITE_BASE_URL}/publicHolidays/${region.toString()}-${year}.json`;
     const response = await fetch(filePath);
     const data: Array<PublicHoliday> = await response.json();
     return data;
