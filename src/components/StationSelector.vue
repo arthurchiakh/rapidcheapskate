@@ -68,6 +68,9 @@ import { ref, computed, watch } from 'vue';
 import { type Station, stations } from '../assets/data/stations';
 
 let model = defineModel();
+let props = defineProps<{
+  disabledStationCode?: string;
+}>();
 let stationName = ref<string>();
 let isModalActive = ref(false);
 let stationSearchString = ref('');
@@ -120,6 +123,9 @@ const stationsGroupByLineOptionList = computed(() => {
 
       currentLineName = station.lineName;
     }
+
+    // Skip disabled station
+    if(station.code === props.disabledStationCode) return;
 
     formattedStationData.push({
       value: station.code,

@@ -47,13 +47,13 @@
             <div class="column is-one-quarter-desktop is-full-mobile">
               <div class="field">
                 <label class="label is-small-mobile">From Station</label>
-                <StationSelector v-model="fromStation" />
+                <StationSelector v-model="fromStation" :disabledStationCode="toStation" />
               </div>
             </div>
             <div class="column is-one-quarter-desktop is-full-mobile">
               <div class="field">
                 <label class="label is-small-mobile">To Station</label>
-                <StationSelector v-model="toStation" />
+                <StationSelector v-model="toStation" :disabledStationCode="fromStation" />
               </div>
             </div>
           </div>
