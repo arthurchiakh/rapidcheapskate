@@ -1,5 +1,7 @@
 # rapidcheapskate
 
+The site: <a href="https://arthurchiakh.github.io/rapidcheapskate/">https://arthurchiakh.github.io/rapidcheapskate/</a>
+
 The application will illustrate the <b>My50 Unlimited Travel Pass</b> utilization based on the various inputs (including activation date, public holiday, route fare), so that you can make decision whether the pass is worth to purchase for you or when to activate the pass.
 
 ## Recommended IDE Setup

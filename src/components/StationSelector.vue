@@ -125,7 +125,7 @@ const stationsGroupByLineOptionList = computed(() => {
     }
 
     // Skip disabled station
-    if(station.code === props.disabledStationCode) return;
+    if (station.code === props.disabledStationCode) return;
 
     formattedStationData.push({
       value: station.code,
