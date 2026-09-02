@@ -40,13 +40,13 @@ and off days.
 - Vue Router
 - Bulma and Sass
 - Vitest and Vue Test Utils
-- ESLint and Prettier
+- Oxlint and Oxfmt
 
 ## Getting started
 
 ### Prerequisites
 
-Install [Node.js](https://nodejs.org/) and npm.
+Install Node.js 22.22.2 or newer and npm. If you use NVM, run `nvm use 22.22.2`.
 
 ### Install and run
 
@@ -59,14 +59,16 @@ The development server runs at `http://localhost:5173/` by default.
 
 ### Available commands
 
-| Command | Purpose |
-| --- | --- |
-| `npm run dev` | Start the Vite development server with hot reload. |
-| `npm run build` | Type-check the application and create a production build in `dist/`. |
-| `npm run preview` | Serve the production build locally. |
-| `npm run test:unit -- --run` | Run the Vitest suite once. |
-| `npm run lint` | Check and automatically fix supported source files. |
-| `npm run format` | Format files under `src/` with Prettier. |
+| Command                      | Purpose                                                              |
+| ---------------------------- | -------------------------------------------------------------------- |
+| `npm run dev`                | Start the Vite development server with hot reload.                   |
+| `npm run build`              | Type-check the application and create a production build in `dist/`. |
+| `npm run preview`            | Serve the production build locally.                                  |
+| `npm run test:unit -- --run` | Run the Vitest suite once.                                           |
+| `npm run lint`               | Check Vue, TypeScript, and test files with Oxlint.                   |
+| `npm run lint:fix`           | Automatically fix supported Oxlint findings.                         |
+| `npm run format`             | Format the repository with Oxfmt.                                    |
+| `npm run format:check`       | Check repository formatting without modifying files.                 |
 
 ## Project structure
 
@@ -106,6 +108,8 @@ Keep changes focused and run the following checks before opening a pull request:
 
 ```sh
 npm run test:unit -- --run
+npm run format:check
+npm run lint
 npm run build
 ```
 

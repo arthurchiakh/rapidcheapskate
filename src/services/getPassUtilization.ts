@@ -111,9 +111,11 @@ export const getDayUtilization = async (
 
   // Prepare the calendar view
   const flattenCalendar = [
-    ...new Array(calendarData[0].date.getDay()).fill(null),
+    ...Array.from({ length: calendarData[0].date.getDay() }).fill(null),
     ...calendarData,
-    ...new Array(7 - calendarData[calendarData.length - 1].date.getDay() - 1).fill(null)
+    ...Array.from({ length: 7 - calendarData[calendarData.length - 1].date.getDay() - 1 }).fill(
+      null
+    )
   ];
 
   const calendar = [];

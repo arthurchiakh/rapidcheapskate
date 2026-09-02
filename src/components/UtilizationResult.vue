@@ -138,7 +138,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps } from 'vue';
+import { ref } from 'vue';
 import { DayType, TripType, type PassUtilization } from '../services/getPassUtilization';
 import { type RouteFare } from '../services/getRouteFare';
 
