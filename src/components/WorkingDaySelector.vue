@@ -31,7 +31,6 @@
 
 <script setup lang="ts">
 import { WorkingDay } from '@/services/getPassUtilization';
-import { defineModel } from 'vue';
 
 const workingDaySets: { label: string; value: WorkingDay[] }[] = [
   {
@@ -69,15 +68,7 @@ const workingDaySets: { label: string; value: WorkingDay[] }[] = [
   }
 ];
 
-let model = defineModel<WorkingDay[]>({
-  default: [
-    WorkingDay.Monday,
-    WorkingDay.Tuesday,
-    WorkingDay.Wednesday,
-    WorkingDay.Thursday,
-    WorkingDay.Friday
-  ]
-});
+const model = defineModel<WorkingDay[]>({ required: true });
 </script>
 
 <style></style>

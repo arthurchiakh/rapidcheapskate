@@ -34,7 +34,7 @@
                       dateFormat: 'Y-m-d',
                       minDate: '2023-01-01',
                       maxDate: '2026-12-31',
-                      disableMobile: 'true'
+                      disableMobile: true
                     }"
                     style="max-width: 500px"
                     placeholder="Select a date"
